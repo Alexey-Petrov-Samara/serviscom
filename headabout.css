@@ -1,0 +1,88 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 1600px;
+}
+
+/* .container {
+  padding: 10px 150px;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* color:aliceblue; */
+  background-color:#fff;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  position: fixed;
+  background: none;
+  transition: box-shadow, background-color .25s ease;
+}
+
+.header__scrolled {
+  background: radial-gradient(circle, rgb(183, 241, 237) 22%, rgb(252, 194, 68) 70%);
+  box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
+  color: #171718;
+}
+
+.header__logo {
+  height: 50px;
+}
+
+.header__text {
+  font-weight: bold;
+  padding-left: 100px;
+  position: fixed;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #0b1733;
+}
+ 
+header a {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 25px;
+}
+
+.headabout {
+  height: 700px;
+  background: url(assets/bg_about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.about {
+  position: relative;
+  height: 600px;
+
+}
+
+.about__info {
+  position: absolute; 
+	bottom: 0px;
+  left: 5px;
+	background: radial-gradient(circle, rgba(252, 194, 68, 0.8) 22%, rgba(144,210,196,0.80) 81%);
+  border-radius: 10px;
+	height: 300px;
+	width: 500px;
+  padding: 5px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #000;
+  text-align: justify;
+}
+

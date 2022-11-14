@@ -1,0 +1,45 @@
+.container {
+  padding: 10px 150px;
+}
+
+.info {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.info {
+    height: 450px;
+    /* text-align: center; */
+}
+
+.img1 {
+    height: 100%;
+    padding-right: 10px;
+    width: auto;
+}
+
+.card {
+    font-size: 16px;
+    line-height: 1.4;
+    padding-right: 10px;
+    background: radial-gradient(circle, rgba(252, 194, 68, 0.8) 22%, rgba(144,210,196,0.80) 81%);
+    border-radius: 8px;
+}
+
+.card__h {
+    text-align: center;
+}
+
+li {
+    margin-left: -15px;
+}
+
+.info__img {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
